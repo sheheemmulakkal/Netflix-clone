@@ -252,3 +252,55 @@ nav {
     justify-content: center;
     margin-bottom: 50px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 150px;
+    margin-top: 7px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: black;
+    color: rgb(150, 150, 150);
+
+}
+
+.qstn p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.qstn u{
+    cursor: pointer;
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    text-align:left ;
+    margin-right: 200px;
+}
+
+.footer-column a{
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-english-button button{
+    color: rgb(150, 150, 150);
+    background-color:rgb(12, 12, 12) ;
+    margin-bottom: 30px;
+}
+
+.footer-netflix p{
+    font-size: 12px;
+}
