@@ -1,53 +1,54 @@
-*{
+* {
     padding: 0;
     margin: 0;
-   
+
 }
 
-.body{
+.body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(35, 35, 35);
 }
-    
-header{
+
+header {
     height: 100vh;
 }
-nav{
+
+nav {
     width: 100%;
     height: 100px;
     position: relative;
     z-index: 1;
-   
+
 }
 
 
-.logo img{
+.logo img {
     height: 100px;
     position: absolute;
     left: 150px;
 }
 
-.nav-buttons{
+.nav-buttons {
     position: absolute;
     right: 150px;
     top: 40px;
 }
 
-.enlish-button{
+.enlish-button {
     background-color: transparent;
     padding: 6px 12px;
     border-radius: 5px;
-    border: 1px  solid white;
-    background-color: rgba(0,0,0,.5);
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .5);
     color: white;
 }
 
-.enlish-button div{
+.enlish-button div {
     display: inline;
-    padding: 4px;  
+    padding: 4px;
 }
 
-.signin-button{
+.signin-button {
     padding: 7px 17px;
     border-radius: 5px;
     border: none;
@@ -56,15 +57,15 @@ nav{
     margin-left: 15px;
 }
 
-.cover{
+.cover {
     background-size: cover;
     background-position: center;
     top: 0;
     height: 100vh;
     width: 100%;
-     background:linear-gradient(to top, rgba(0, 0, 0, .4), transparent 30%, rgba(0, 0, 0, .8)), 
-                linear-gradient(to bottom, rgba(0, 0, 0, .4), transparent 30%, rgba(0, 0, 0, .8)),
-                url('Cover.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, .4), transparent 30%, rgba(0, 0, 0, .8)),
+        linear-gradient(to bottom, rgba(0, 0, 0, .4), transparent 30%, rgba(0, 0, 0, .8)),
+        url('Cover.jpg');
     /* Backgroung Image  */
     display: flex;
     flex-direction: column;
@@ -74,54 +75,55 @@ nav{
     z-index: -1;
 }
 
-.cover h1{
+.cover h1 {
     color: white;
-    
+
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 13px;
 }
 
-.cover h5{
+.cover h5 {
     color: white;
-    
+
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 13px;
 }
 
-.cover h6{
+.cover h6 {
     color: white;
-    
+
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 13px;
 }
 
-.cover-input{
+.cover-input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
 }
 
-.cover-input input{
+.cover-input input {
     padding: 18px 0;
     padding-right: 90px;
     padding-left: 10px;
     border: 1px solid white;
     background: rgba(0, 0, 0, .4);
     border-radius: 5px;
-    
+
 }
 
-.cover-input input::placeholder{
+.cover-input input::placeholder {
     padding-right: 60px;
     text-align: left;
     color: white;
     font-size: 18px;
 }
-.cover-input button{
+
+.cover-input button {
     padding: 15px 40px;
     background-color: #E50914;
     border-radius: 5px;
@@ -132,7 +134,7 @@ nav{
 
 }
 
-.content{
+.content {
     color: rgb(255, 255, 255);
     height: 80vh;
     background-color: rgb(0, 0, 0);
@@ -144,47 +146,109 @@ nav{
 
 
 
-.text{
+.text {
     width: 60%;
     display: flex;
     justify-content: center;
-    
+
     flex-direction: column;
-   
+
     padding-left: 40px;
 }
-.text h1{
+
+.text h1 {
     font-size: 45px;
-    
+
 }
-.text h6{
+
+.text h6 {
     font-weight: 300;
     font-size: 23px;
 }
-.images{
+
+.images {
     width: 40%;
     padding-left: 50px;
     display: flex;
     justify-content: center;
-    align-items:  start;
+    align-items: start;
 }
-.images img{
-    width: 400px;   
+
+.images img {
+    width: 400px;
 }
 
 
-.first-content div{
+.first-content div {
     padding-left: 120px;
 }
-.first-content img{
+
+.first-content img {
     padding-right: 130px;
 }
 
 
-.third-content div{
+.third-content div {
     padding-left: 130px;
 }
-.third-content img{
+
+.third-content img {
     padding-right: 80px;
 }
 
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 7px;
+    width: 100%;
+}
+
+
+.faq-head h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.faq-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.field {
+    width: 70vw;
+    margin-bottom: 7px;
+    height: 70px;
+    background-color: #2D2D2D;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.faq-section h6 {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.faq-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
