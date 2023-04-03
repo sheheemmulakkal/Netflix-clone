@@ -57,6 +57,11 @@ nav {
     margin-left: 15px;
 }
 
+.signin-button:hover{
+    background-color: #C11119;
+    cursor: pointer;
+}
+
 .cover {
     background-size: cover;
     background-position: center;
@@ -132,6 +137,13 @@ nav {
     font-size: 20px;
     font-weight: 600;
 
+}
+
+.cover-input button:hover{
+   
+    background-color: #C11119;
+    cursor: pointer;
+    
 }
 
 .content {
@@ -236,6 +248,9 @@ nav {
     font-size: 20px;
 }
 
+.field:hover{
+    background-color: #4E4E4E;
+}
 .faq-section h6 {
 
     color: white;
