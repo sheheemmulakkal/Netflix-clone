@@ -55,7 +55,7 @@ nav {
     margin-left: 15px;
 }
 
-.signin-button:hover{
+.signin-button:hover {
     background-color: #C11119;
     cursor: pointer;
 }
@@ -136,8 +136,8 @@ nav {
     font-weight: 600;
 }
 
-.cover-input button:hover{
-   
+.cover-input button:hover {
+
     background-color: #C11119;
     cursor: pointer;
 }
@@ -241,9 +241,10 @@ nav {
     font-size: 20px;
 }
 
-.field:hover{
+.field:hover {
     background-color: #4E4E4E;
 }
+
 .faq-section h6 {
 
     color: white;
@@ -261,7 +262,7 @@ nav {
     margin-bottom: 50px;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -273,41 +274,41 @@ footer{
     color: rgb(150, 150, 150);
 }
 
-.qstn p{
+.qstn p {
     font-size: 15px;
     margin-bottom: 50px;
 }
 
-.qstn u{
+.qstn u {
     cursor: pointer;
 }
 
-.footer-contents{
+.footer-contents {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.footer-column{
+.footer-column {
     display: flex;
     flex-direction: column;
-    text-align:left ;
+    text-align: left;
     margin-right: 200px;
 }
 
-.footer-column a{
+.footer-column a {
     color: rgb(150, 150, 150);
     font-size: 12px;
     margin-bottom: 12px;
 }
 
-.footer-english-button button{
+.footer-english-button button {
     color: rgb(150, 150, 150);
-    background-color:rgb(12, 12, 12) ;
+    background-color: rgb(12, 12, 12);
     margin-bottom: 30px;
 }
 
-.footer-netflix p{
+.footer-netflix p {
     font-size: 12px;
 }
